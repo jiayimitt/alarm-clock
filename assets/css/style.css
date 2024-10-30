@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+.container {
+    width: min(100% - 30px, 1200px);
+    margin-inline: auto;
+  }
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;   
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #333;
+    color: #fff;
+    margin: 0;
+  }
+
+  .clock-container {
+    text-align: center;
+  }
+
+  #clock {
+    font-size: 16vh;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .alarm-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  input[type="number"] {     
+    padding: 10px 10px;
+    margin: 0 5px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #413f3f;
+  }
+
+  button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #0066ff;
+    color: rgb(244, 238, 238);
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+  }
+
+  button:hover {
+    background-color: #0051cc;
+  }
+
+  #alarmMessage {   
+    margin-bottom: 20px;
+  }
