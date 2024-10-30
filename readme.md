@@ -26,7 +26,7 @@ This is a simple digital alarm clock application developed in JavaScript. The cl
 
 ## Setup
 
-To view this project, you can visit the GitHub Pages link here: [Your GitHub Pages URL](https://your-username.github.io/alarmclock/).
+To view this project, you can visit the GitHub Pages link here:https://github.com/jiayimitt/alarm-clock
 
 Alternatively, you can run it locally:
 1. Clone this repository.
