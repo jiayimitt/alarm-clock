@@ -18,7 +18,7 @@ body {
     align-items: center;
     height: 100vh;
     background: #333;
-    color: #fff;
+    color: rgb(244, 238, 238);
     margin: 0;
   }
 
@@ -44,6 +44,7 @@ body {
     border-radius: 20px;
     text-align: center;
     background-color: #413f3f;
+    color:rgb(244, 238, 238);
   }
 
   button {
